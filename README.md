@@ -23,3 +23,7 @@ Thank you
 ![image](https://user-images.githubusercontent.com/104597854/181815363-0e223f69-790f-454e-9428-0f93b70deecc.png)
 
 ![image](https://user-images.githubusercontent.com/104597854/181815513-e3574476-a04f-4488-b973-76cb9af33653.png)
+
+## Database Table
+![image](https://user-images.githubusercontent.com/104597854/182006432-3616ec46-fb19-4176-ba13-25576ca73b80.png)
+
