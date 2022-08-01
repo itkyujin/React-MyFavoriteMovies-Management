@@ -53,6 +53,7 @@ class App extends Component {
                 <TableCell>Release Year</TableCell>
                 <TableCell>Run Time</TableCell>
                 <TableCell>Director Name</TableCell>
+                <TableCell>Setting</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -60,6 +61,7 @@ class App extends Component {
             this.state.movies ? this.state.movies.map(c => {
               return (
                 <Movie
+                  stateRefresh={this.stateRefresh}
                   key={c.id}
                   id={c.id}
                   image={c.image}
