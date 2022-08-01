@@ -30,6 +30,12 @@ Thank you
 
 ![image](https://user-images.githubusercontent.com/104597854/182006432-3616ec46-fb19-4176-ba13-25576ca73b80.png)
 
+## CRUD
+![image](https://user-images.githubusercontent.com/104597854/182201495-0f07a165-4b6c-4905-9ea1-9349d8be7044.png)
+
+![image](https://user-images.githubusercontent.com/104597854/182201706-dff2eab4-1838-4be9-b676-f06a96f4bf74.png)
+
+
 ## REST API
 # http://localhost:5000/api/movies
 ![image](https://user-images.githubusercontent.com/104597854/182200894-08ca0a76-8912-442d-b4c6-07e18225c5d2.png)
