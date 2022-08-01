@@ -21,12 +21,33 @@ const connection = mysql.createConnection({
 });
 connection.connect();
 
+const multer = require('multer');
+const upload = multer({dest: './upload'})
+
 app.get('/api/movies', (req, res) => {
     connection.query(
       "SELECT * FROM MOVIE",
       (err, rows, fields) => {
           res.send(rows);
       }
+    );
+});
+
+app.use('/image', express.static('./upload'));
+
+app.post('/api/movies', upload.single('image'), (req, res) => {
+    let sql = 'INSERT INTO MOVIE VALUES (null, ?, ?, ?, ?, ?)';
+    let image = '/image/' + req.file.filename;
+    let title = req.body.title;
+    let releaseYear = req.body.releaseYear;
+    let runTime = req.body.runTime;
+    let directorName = req.body.directorName;
+    
+    let params = [image, title, releaseYear, runTime, directorName];
+    connection.query(sql, params,
+        (err, rows, fields) => {
+            res.send(rows);
+        }
     );
 });
 

@@ -19,7 +19,16 @@ class MovieAdd extends React.Component {
         this.addMovie()
             .then((response) => {
                 console.log(response.data);
+                this.props.stateRefresh();
             })
+        this.setState({
+            file: null,
+            title: '',
+            releaseYear: '',
+            runTime: '',
+            directorName: '',
+            fileName: ''
+        })
     }
 
     handleFileChange = (e) => {
