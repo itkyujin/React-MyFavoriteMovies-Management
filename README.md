@@ -25,5 +25,13 @@ Thank you
 ![image](https://user-images.githubusercontent.com/104597854/181815513-e3574476-a04f-4488-b973-76cb9af33653.png)
 
 ## Database Table
+![image](https://user-images.githubusercontent.com/104597854/182200575-8671d97f-0c2f-4850-ab84-09741a8631f1.png)
+![image](https://user-images.githubusercontent.com/104597854/182200679-92e537f4-a790-4c71-bd8d-7ac87b3cdf6d.png)
+
 ![image](https://user-images.githubusercontent.com/104597854/182006432-3616ec46-fb19-4176-ba13-25576ca73b80.png)
+
+## REST API
+# http://localhost:5000/api/movies
+![image](https://user-images.githubusercontent.com/104597854/182200894-08ca0a76-8912-442d-b4c6-07e18225c5d2.png)
+
 
