@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Movie from './components/Movie';
+import MovieAdd from './components/MovieAdd';
 import './App.css';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
@@ -27,36 +28,39 @@ class App extends Component {
 
   render() {
     return (
-      <Paper>
-        <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell>Number</TableCell>
-              <TableCell>Movie Poster</TableCell>
-              <TableCell>Title</TableCell>
-              <TableCell>Release Year</TableCell>
-              <TableCell>Run Time</TableCell>
-              <TableCell>Director Name</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-        {
-          this.state.movies ? this.state.movies.map(c => {
-            return (
-              <Movie
-                key={c.id}
-                id={c.id}
-                image={c.image}
-                title={c.title}
-                releaseYear={c.releaseYear}
-                runTime={c.runTime}
-                directorName={c.directorName}
-              />  
-            );
-          }) : ""}
-          </TableBody>
-        </Table>
-      </Paper>           
+      <div>
+        <Paper>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Number</TableCell>
+                <TableCell>Movie Poster</TableCell>
+                <TableCell>Title</TableCell>
+                <TableCell>Release Year</TableCell>
+                <TableCell>Run Time</TableCell>
+                <TableCell>Director Name</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+          {
+            this.state.movies ? this.state.movies.map(c => {
+              return (
+                <Movie
+                  key={c.id}
+                  id={c.id}
+                  image={c.image}
+                  title={c.title}
+                  releaseYear={c.releaseYear}
+                  runTime={c.runTime}
+                  directorName={c.directorName}
+                />  
+              );
+            }) : ""}
+            </TableBody>
+          </Table>
+        </Paper>
+        <MovieAdd/>
+      </div>           
     );  
   }
 }
