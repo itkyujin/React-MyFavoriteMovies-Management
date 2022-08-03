@@ -33,7 +33,15 @@ Thank you
 ## CRUD
 ![image](https://user-images.githubusercontent.com/104597854/182201495-0f07a165-4b6c-4905-9ea1-9349d8be7044.png)
 
+![image](https://user-images.githubusercontent.com/104597854/182499595-944d2662-9f96-4094-8073-90e8058eb196.png)
+
+#ADD Function
+![image](https://user-images.githubusercontent.com/104597854/182499742-9a0fcfb8-76a8-48cc-9f91-cec76c029670.png)
+
 ![image](https://user-images.githubusercontent.com/104597854/182201706-dff2eab4-1838-4be9-b676-f06a96f4bf74.png)
+
+#DELETE Function
+![image](https://user-images.githubusercontent.com/104597854/182499822-89afeddc-7343-4a07-9111-dcf0fe76a3ef.png)
 
 
 ## REST API
