@@ -113,6 +113,10 @@ class MovieAdd extends React.Component {
                         <TextField label="Run Time" type="int" name="runTime" value={this.state.runTime} onChange={this.handleValueChange}/><br/>
                         <TextField label="Director Name" type="text" name="directorName" value={this.state.directorName} onChange={this.handleValueChange}/><br/>     
                     </DialogContent>
+                    <DialogActions>
+                        <Button variant="contained" color="primary" onClick={this.handleFormSubmit}>ADD</Button>
+                        <Button variant="outlined" color="primary" onClick={this.handleClose}>Close</Button>
+                    </DialogActions>
                 </Dialog>
             </div>
             // <form onSubmit={this.handleFormSubmit}>
