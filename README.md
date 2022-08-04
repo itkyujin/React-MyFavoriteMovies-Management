@@ -48,4 +48,14 @@ Thank you
 # http://localhost:5000/api/movies
 ![image](https://user-images.githubusercontent.com/104597854/182200894-08ca0a76-8912-442d-b4c6-07e18225c5d2.png)
 
+## Create
 
+![image](https://user-images.githubusercontent.com/104597854/182754990-71deb834-ee7a-4df0-ad9a-b9f0fcb7b421.png)
+
+
+![image](https://user-images.githubusercontent.com/104597854/182755050-1322da83-5611-4ea8-908b-71f8a27c9cb1.png)
+
+
+![image](https://user-images.githubusercontent.com/104597854/182755113-e41c265d-9e54-4e45-aea8-d57602077155.png)
+
+## App.Js
